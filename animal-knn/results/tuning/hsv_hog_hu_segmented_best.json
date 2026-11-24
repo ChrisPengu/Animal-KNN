@@ -1,0 +1,10 @@
+{
+  "feature": "hsv_hog_hu_segmented",
+  "pca": 256,
+  "k": 5,
+  "metric": "cosine",
+  "weights": "distance",
+  "val_accuracy": 0.3915966386554622,
+  "val_macro_f1": 0.38365229930634204,
+  "distance_ms_per_image": 0.0566149579830411
+}

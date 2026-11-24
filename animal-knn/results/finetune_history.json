@@ -1,0 +1,97 @@
+{
+  "backbone": "efficientnet_b0",
+  "history": [
+    {
+      "phase": "head",
+      "epoch": 1,
+      "train_loss": 0.47740141590686214,
+      "val_loss": 0.1956714504907111,
+      "val_accuracy": 0.9512605042016806
+    },
+    {
+      "phase": "head",
+      "epoch": 2,
+      "train_loss": 0.13559217732907342,
+      "val_loss": 0.1431055648487155,
+      "val_accuracy": 0.957983193277311
+    },
+    {
+      "phase": "head",
+      "epoch": 3,
+      "train_loss": 0.09796506608807067,
+      "val_loss": 0.1250916250613557,
+      "val_accuracy": 0.9630252100840336
+    },
+    {
+      "phase": "head",
+      "epoch": 4,
+      "train_loss": 0.07885025152370365,
+      "val_loss": 0.11667800746044191,
+      "val_accuracy": 0.9563025210084034
+    },
+    {
+      "phase": "head",
+      "epoch": 5,
+      "train_loss": 0.06363707793333745,
+      "val_loss": 0.11022754048599917,
+      "val_accuracy": 0.9647058823529412
+    },
+    {
+      "phase": "last_block",
+      "epoch": 1,
+      "train_loss": 0.16460959221581992,
+      "val_loss": 0.1269911513358605,
+      "val_accuracy": 0.9529411764705882
+    },
+    {
+      "phase": "last_block",
+      "epoch": 2,
+      "train_loss": 0.10858582250727047,
+      "val_loss": 0.12959112573822004,
+      "val_accuracy": 0.9546218487394958
+    },
+    {
+      "phase": "last_block",
+      "epoch": 3,
+      "train_loss": 0.09822944680099967,
+      "val_loss": 0.0973052054745372,
+      "val_accuracy": 0.973109243697479
+    },
+    {
+      "phase": "last_block",
+      "epoch": 4,
+      "train_loss": 0.07257327548612838,
+      "val_loss": 0.0999169785529375,
+      "val_accuracy": 0.9680672268907563
+    },
+    {
+      "phase": "last_block",
+      "epoch": 5,
+      "train_loss": 0.0522395016512281,
+      "val_loss": 0.09007316636813789,
+      "val_accuracy": 0.9747899159663865
+    },
+    {
+      "phase": "last_block",
+      "epoch": 6,
+      "train_loss": 0.05198811380118444,
+      "val_loss": 0.09398173738364912,
+      "val_accuracy": 0.9747899159663865
+    },
+    {
+      "phase": "last_block",
+      "epoch": 7,
+      "train_loss": 0.04883194739463694,
+      "val_loss": 0.09637158751495559,
+      "val_accuracy": 0.9697478991596639
+    },
+    {
+      "phase": "last_block",
+      "epoch": 8,
+      "train_loss": 0.044605662087974306,
+      "val_loss": 0.09270549949509005,
+      "val_accuracy": 0.9764705882352941
+    }
+  ],
+  "seed": 42
+}

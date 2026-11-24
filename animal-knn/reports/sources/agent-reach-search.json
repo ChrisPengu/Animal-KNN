@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "channel": "web",
+  "action": "search",
+  "backend": "exa",
+  "meta": {
+    "elapsed_ms": 875,
+    "attempts": [
+      {
+        "backend": "exa",
+        "result": "ok"
+      }
+    ]
+  },
+  "error": null,
+  "items": [
+    {
+      "title": "RuchiAshok/Multiclass-Classification-on-STL-10-dataset-using-FineTuned-Resnet50-and-SVM-Classifier",
+      "url": "https://github.com/RuchiAshok/Multiclass-Classification-on-STL-10-dataset-using-FineTuned-Resnet50-and-SVM-Classifier",
+      "author": null,
+      "published_at": "2022-09-14T18:30:58.000Z",
+      "retrieved_content_sha256": "562d222d029c8f1a2b088ad72e956202c09f51abc931765e612be54c513c6dd7"
+    },
+    {
+      "title": "An evaluation of pre-trained models for feature extraction in image classification",
+      "url": "https://arxiv.org/abs/2310.02037",
+      "author": "Erick da Silva Puls, Matheus V. Todescato, Joel L. Carbonera",
+      "published_at": "2023-10-03T13:28:14.000Z",
+      "retrieved_content_sha256": "0a3e7510ced6b42065abc22d28f1786cc6fe892a7821fcdbffdcf61eac11f2ad"
+    },
+    {
+      "title": "STL-10 dataset",
+      "url": "https://ai.stanford.edu/~acoates/stl10/",
+      "author": null,
+      "published_at": null,
+      "retrieved_content_sha256": "f1802932d34e3f6a1bc7bbca4c042e0420df9bdc307f726f47e36d7bb05692e9"
+    },
+    {
+      "title": "Classify STL-10 images using CNN",
+      "url": "https://amolgm.github.io/classifySTLusingCNN.html",
+      "author": "Amol Mahurkar",
+      "published_at": null,
+      "retrieved_content_sha256": "8ffe78eb4e262a9a54ad77094b0f8dc2c5fa712347bcc0f5e9c983c97ded706c"
+    },
+    {
+      "title": "Embedding Space Explorer: demonstration guide · MAAI7602 Applied Computer Vision",
+      "url": "https://www.numansaeed.com/teaching/maai7602/demos/embedding-explorer",
+      "author": null,
+      "published_at": null,
+      "retrieved_content_sha256": "0bec5f97f8bad40d962595cfddcdfe99a71fb5707476cd349476846ca10d104f"
+    }
+  ],
+  "note": "Source metadata and retrieval checks only. Read full content at the original URLs."
+}

@@ -1,0 +1,10 @@
+{
+  "feature": "resnet18",
+  "pca": 256,
+  "k": 15,
+  "metric": "manhattan",
+  "weights": "uniform",
+  "val_accuracy": 0.9361344537815126,
+  "val_macro_f1": 0.9359838183641408,
+  "distance_ms_per_image": 0.25320252100930957
+}

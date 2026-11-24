@@ -1,0 +1,10 @@
+{
+  "feature": "resnet18_segmented",
+  "pca": 256,
+  "k": 11,
+  "metric": "euclidean",
+  "weights": "distance",
+  "val_accuracy": 0.8521008403361344,
+  "val_macro_f1": 0.851875421126854,
+  "distance_ms_per_image": 0.08959731092530268
+}

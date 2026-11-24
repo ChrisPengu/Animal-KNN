@@ -1,0 +1,50 @@
+[
+  {
+    "asset": "assets/examples/bird.jpg",
+    "source_file": "data/external/bird/bird_00.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_(male)_version_2,_Geneve,_Switzerland.jpg",
+    "author": "Terragio67",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "asset": "assets/examples/cat.jpg",
+    "source_file": "data/external/cat/cat_00.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg",
+    "author": "Von.grzanka",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "asset": "assets/examples/deer.jpg",
+    "source_file": "data/external/deer/deer_00.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_1.jpg",
+    "author": "Lviatour",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "asset": "assets/examples/dog.jpg",
+    "source_file": "data/external/dog/dog_01.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_062.jpg",
+    "author": "TailsAndTrailsArchive",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "asset": "assets/examples/horse.jpg",
+    "source_file": "data/external/horse/horse_00.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Equus_ferus_caballus,_H%C3%BCckeswagen_(DE)_--_2022_--_0057.jpg",
+    "author": "Anil Öztas",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "asset": "assets/examples/monkey.jpg",
+    "source_file": "data/external/monkey/monkey_00.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Rhesus_macaque_(Macaca_mulatta)_Red-shanked_douc_langur_(Pygathrix_nemaeus)_hybrid_Son_Tra.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "ui": "Windows Tkinter/ttk",
+  "launch": "run-desktop.bat",
+  "real_model_samples": [
+    {
+      "sample": "bird",
+      "predicted": "Chim",
+      "matches_backend": true,
+      "neighbor_ids": [
+        "stl10_train_01577",
+        "stl10_train_03003",
+        "stl10_train_03770",
+        "stl10_train_00457",
+        "stl10_train_03426"
+      ]
+    },
+    {
+      "sample": "cat",
+      "predicted": "Mèo",
+      "matches_backend": true,
+      "neighbor_ids": [
+        "stl10_train_00599",
+        "stl10_train_02862",
+        "stl10_train_01137",
+        "stl10_train_01100",
+        "stl10_train_02904"
+      ]
+    },
+    {
+      "sample": "deer",
+      "predicted": "Hươu",
+      "matches_backend": true,
+      "neighbor_ids": [
+        "stl10_train_01747",
+        "stl10_train_03508",
+        "stl10_train_03701",
+        "stl10_train_03054",
+        "stl10_train_04762"
+      ]
+    },
+    {
+      "sample": "dog",
+      "predicted": "Chó",
+      "matches_backend": true,
+      "neighbor_ids": [
+        "stl10_train_03121",
+        "stl10_train_04907",
+        "stl10_train_04114",
+        "stl10_train_01024",
+        "stl10_train_03053"
+      ]
+    },
+    {
+      "sample": "horse",
+      "predicted": "Hươu",
+      "matches_backend": true,
+      "neighbor_ids": [
+        "stl10_train_02242",
+        "stl10_train_02517",
+        "stl10_train_02137",
+        "stl10_train_00117",
+        "stl10_train_00297"
+      ]
+    },
+    {
+      "sample": "monkey",
+      "predicted": "Khỉ",
+      "matches_backend": true,
+      "neighbor_ids": [
+        "stl10_train_04298",
+        "stl10_train_00268",
+        "stl10_train_01726",
+        "stl10_train_03994",
+        "stl10_train_02143"
+      ]
+    }
+  ],
+  "event_loop_heartbeat": true,
+  "reference_images_rendered": 5,
+  "model_unchanged": true,
+  "unit_tests": "15 passed",
+  "screen_input_automation": "Stopped by user; no further input automation performed",
+  "visual_result_review": "Pending; visible empty window observed, resulting-window screenshot not captured",
+  "summary": "Sáu ảnh mẫu chạy qua bộ điều khiển Tkinter ẩn, nhãn/điểm bỏ phiếu/ID năm láng giềng khớp backend. Luồng sự kiện vẫn phản hồi trong khi nạp và suy luận. 15 kiểm thử mã thành công, gồm ảnh hỏng, ảnh xám/alpha, lỗi mô hình và đóng trong khi xử lý. Chưa hoàn tất kiểm tra trực quan cửa sổ kết quả vì người dùng đã dừng công cụ điều khiển màn hình."
+}

@@ -1,0 +1,49 @@
+{
+  "classes": [
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "horse",
+    "monkey"
+  ],
+  "seed": 42,
+  "counts": {
+    "excluded_near_duplicate": {
+      "bird": 1,
+      "cat": 2,
+      "deer": 5,
+      "dog": 4,
+      "horse": 2,
+      "monkey": 6
+    },
+    "test": {
+      "bird": 800,
+      "cat": 800,
+      "deer": 800,
+      "dog": 800,
+      "horse": 800,
+      "monkey": 800
+    },
+    "train": {
+      "bird": 399,
+      "cat": 398,
+      "deer": 396,
+      "dog": 398,
+      "horse": 400,
+      "monkey": 394
+    },
+    "val": {
+      "bird": 100,
+      "cat": 100,
+      "deer": 99,
+      "dog": 98,
+      "horse": 98,
+      "monkey": 100
+    }
+  },
+  "excluded_exact_duplicates": 0,
+  "source": "https://cs.stanford.edu/~acoates/stl10/stl10_binary.tar.gz",
+  "excluded_near_duplicates": 20,
+  "protocol": "Six-class supervised transfer-learning subset; not official STL-10 10-fold protocol"
+}

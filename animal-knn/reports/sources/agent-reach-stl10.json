@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "channel": "web",
+  "action": "read",
+  "backend": "jina",
+  "meta": {
+    "elapsed_ms": 1375,
+    "attempts": [
+      {
+        "backend": "jina",
+        "result": "ok"
+      }
+    ]
+  },
+  "error": null,
+  "items": [
+    {
+      "title": "STL-10 dataset",
+      "url": "https://cs.stanford.edu/~acoates/stl10/",
+      "author": null,
+      "published_at": "Mon, 23 Nov 2015 16:51:05 GMT",
+      "retrieved_content_sha256": "c7d7b8ac0edd36903bde0816ecdb80dea170ddeb24c520508c9ef4364a217130"
+    }
+  ],
+  "note": "Source metadata and retrieval checks only. Read full content at the original URLs."
+}

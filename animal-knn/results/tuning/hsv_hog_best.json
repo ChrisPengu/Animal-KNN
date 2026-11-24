@@ -1,0 +1,10 @@
+{
+  "feature": "hsv_hog",
+  "pca": 0,
+  "k": 11,
+  "metric": "cosine",
+  "weights": "distance",
+  "val_accuracy": 0.5142857142857142,
+  "val_macro_f1": 0.4982721100434356,
+  "distance_ms_per_image": 0.27986789915884086
+}

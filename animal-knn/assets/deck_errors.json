@@ -1,0 +1,23 @@
+[
+  {
+    "path": "assets/deck_errors/error_0.png",
+    "sample_id": "stl10_test_00012",
+    "truth_vi": "Hươu",
+    "pred_vi": "Ngựa",
+    "vote_score": 1.0
+  },
+  {
+    "path": "assets/deck_errors/error_1.png",
+    "sample_id": "stl10_test_00850",
+    "truth_vi": "Mèo",
+    "pred_vi": "Chó",
+    "vote_score": 1.0
+  },
+  {
+    "path": "assets/deck_errors/error_2.png",
+    "sample_id": "stl10_test_00915",
+    "truth_vi": "Chó",
+    "pred_vi": "Ngựa",
+    "vote_score": 1.0
+  }
+]

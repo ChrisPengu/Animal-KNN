@@ -1,0 +1,15 @@
+{
+  "count": 60,
+  "class_counts": {
+    "bird": 10,
+    "cat": 10,
+    "deer": 10,
+    "dog": 10,
+    "horse": 10,
+    "monkey": 10
+  },
+  "all_visually_reviewed": true,
+  "stl_near_duplicate_candidates": 0,
+  "hamming_threshold": 5,
+  "note": "Perceptual-hash candidate search is not a guarantee of zero semantic overlap."
+}

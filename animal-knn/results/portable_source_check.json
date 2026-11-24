@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "test": "Source + selected model copied to a different path containing spaces",
+  "inference": {
+    "label": "Mèo",
+    "neighbors": 5,
+    "reference_count": 2385,
+    "device": "cpu"
+  },
+  "environment": "Existing locked project environment, CPU inference"
+}

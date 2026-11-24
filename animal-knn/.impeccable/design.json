@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T02:17:13.133925Z",
+  "title": "Design System: Animal K-NN",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Xanh nghiên cứu",
+        "tonalRamp": [
+          "oklch(15.00% 0.09943 158.43)",
+          "oklch(26.43% 0.09943 158.43)",
+          "oklch(37.86% 0.09943 158.43)",
+          "oklch(49.29% 0.09943 158.43)",
+          "oklch(60.71% 0.09943 158.43)",
+          "oklch(72.14% 0.09943 158.43)",
+          "oklch(83.57% 0.09943 158.43)",
+          "oklch(95.00% 0.09943 158.43)"
+        ]
+      },
+      "primary-active": {
+        "role": "primary",
+        "displayName": "Xanh nhấn nút",
+        "tonalRamp": [
+          "oklch(15.00% 0.07981 159.91)",
+          "oklch(26.43% 0.07981 159.91)",
+          "oklch(37.86% 0.07981 159.91)",
+          "oklch(49.29% 0.07981 159.91)",
+          "oklch(60.71% 0.07981 159.91)",
+          "oklch(72.14% 0.07981 159.91)",
+          "oklch(83.57% 0.07981 159.91)",
+          "oklch(95.00% 0.07981 159.91)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Nền trắng",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "secondary-background": {
+        "role": "neutral",
+        "displayName": "Xanh nền nhạt",
+        "tonalRamp": [
+          "oklch(15.00% 0.00661 160.08)",
+          "oklch(26.43% 0.00661 160.08)",
+          "oklch(37.86% 0.00661 160.08)",
+          "oklch(49.29% 0.00661 160.08)",
+          "oklch(60.71% 0.00661 160.08)",
+          "oklch(72.14% 0.00661 160.08)",
+          "oklch(83.57% 0.00661 160.08)",
+          "oklch(95.00% 0.00661 160.08)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Mực xanh đậm",
+        "tonalRamp": [
+          "oklch(15.00% 0.04079 166.92)",
+          "oklch(26.43% 0.04079 166.92)",
+          "oklch(37.86% 0.04079 166.92)",
+          "oklch(49.29% 0.04079 166.92)",
+          "oklch(60.71% 0.04079 166.92)",
+          "oklch(72.14% 0.04079 166.92)",
+          "oklch(83.57% 0.04079 166.92)",
+          "oklch(95.00% 0.04079 166.92)"
+        ]
+      },
+      "caption": {
+        "role": "neutral",
+        "displayName": "Xanh chú thích",
+        "tonalRamp": [
+          "oklch(15.00% 0.03834 163.74)",
+          "oklch(26.43% 0.03834 163.74)",
+          "oklch(37.86% 0.03834 163.74)",
+          "oklch(49.29% 0.03834 163.74)",
+          "oklch(60.71% 0.03834 163.74)",
+          "oklch(72.14% 0.03834 163.74)",
+          "oklch(83.57% 0.03834 163.74)",
+          "oklch(95.00% 0.03834 163.74)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Xanh đường phân cách",
+        "tonalRamp": [
+          "oklch(15.00% 0.01421 155.57)",
+          "oklch(26.43% 0.01421 155.57)",
+          "oklch(37.86% 0.01421 155.57)",
+          "oklch(49.29% 0.01421 155.57)",
+          "oklch(60.71% 0.01421 155.57)",
+          "oklch(72.14% 0.01421 155.57)",
+          "oklch(83.57% 0.01421 155.57)",
+          "oklch(95.00% 0.01421 155.57)"
+        ]
+      },
+      "error": {
+        "role": "semantic",
+        "displayName": "Đỏ lỗi",
+        "tonalRamp": [
+          "oklch(15.00% 0.16233 26.23)",
+          "oklch(26.43% 0.16233 26.23)",
+          "oklch(37.86% 0.16233 26.23)",
+          "oklch(49.29% 0.16233 26.23)",
+          "oklch(60.71% 0.16233 26.23)",
+          "oklch(72.14% 0.16233 26.23)",
+          "oklch(83.57% 0.16233 26.23)",
+          "oklch(95.00% 0.16233 26.23)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Tiêu đề nội dung",
+        "purpose": "Title.TLabel: tiêu đề Phân loại động vật."
+      },
+      "result": {
+        "displayName": "Kết quả",
+        "purpose": "Result.TLabel: tên lớp dự đoán nổi bật."
+      },
+      "heading": {
+        "displayName": "Tiêu đề khu vực",
+        "purpose": "Heading.TLabel: khu vực ảnh, biểu đồ, láng giềng và thông tin."
+      },
+      "body": {
+        "displayName": "Nội dung",
+        "purpose": "Chữ mặc định của ttk và nhãn Canvas; chú thích đổi màu, không giảm cỡ."
+      },
+      "table-heading": {
+        "displayName": "Đầu cột",
+        "purpose": "Treeview.Heading: đầu cột cùng cỡ nội dung, chữ đậm."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [],
+    "nativeImplementation": {
+      "platform": "Windows",
+      "toolkit": "Tkinter/ttk",
+      "theme": "clam",
+      "launch": "run-desktop.bat",
+      "source": "animal_knn/desktop.py",
+      "authority": [
+        "PRODUCT.md",
+        ".impeccable/surface-briefs/desktop.md"
+      ],
+      "onboarding": [
+        "HUONG_DAN_MA_NGUON.md",
+        "README.md"
+      ],
+      "fontUnits": "Các cỡ font dương trong Tk tính bằng point; khoảng cách/Canvas là các giá trị Tk đã khai báo, chưa duyệt ở mọi DPI.",
+      "componentPreviews": "Các thành phần được mô tả bằng widget Tk thực tế và token trong DESIGN.md; không có bản xem trước dựng bằng công nghệ khác.",
+      "tonalRampUse": "Dải sắc độ được tính để tra cứu, không phải màu giao diện đã triển khai.",
+      "inheritedStates": "Theme clam cung cấp focus, viền, chọn dòng bảng và tiến trình ngoài các giá trị ghi đè trong _styles.",
+      "workerBehavior": "Luồng nền chỉ xử lý mô hình; luồng Tk nhận kết quả qua hàng đợi và sửa widget. Nguồn ảnh bị khóa khi bận; đóng cửa sổ chờ tác vụ hoàn tất.",
+      "sourceEvidence": {
+        "button-primary": "DesktopApp._styles, DesktopApp._controls, DesktopApp.classify",
+        "button-secondary": "DesktopApp._styles, DesktopApp._build, DesktopApp.choose_file",
+        "sample-select": "DesktopApp._styles, DesktopApp._build, DesktopApp.choose_sample",
+        "notebook-tab": "DesktopApp._styles, DesktopApp._build",
+        "image-preview": "DesktopApp._build, DesktopApp.load_image",
+        "vote-chart": "DesktopApp._draw_votes",
+        "caption": "DesktopApp._styles, DesktopApp._clear_result, DesktopApp._show_result",
+        "table-row": "DesktopApp._styles, DesktopApp._info"
+      },
+      "verification": {
+        "evidence": [
+          "results/desktop_checks.json",
+          "results/pytest.txt",
+          "results/verification.json"
+        ],
+        "recorded": "Sáu ảnh mẫu khớp backend trong kiểm tra bộ điều khiển Tkinter ẩn; 15 kiểm thử mã thành công. Đây là kiểm tra tính nhất quán phần mềm, không phải duyệt trực quan.",
+        "visualReview": "Người dùng đã dừng điều khiển màn hình; chưa hoàn tất duyệt cửa sổ kết quả.",
+        "unverified": [
+          "Cửa sổ kết quả và tab thông tin khi hiển thị thực tế",
+          "DPI của Windows",
+          "Cắt chữ hoặc điều khiển ở kích thước tối thiểu 1080 × 760"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Nút phân loại",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "ttk.Button dùng Action.TButton; chỉ bật khi có ảnh hợp lệ và ứng dụng đang rảnh. Màu active và disabled theo _styles."
+    },
+    {
+      "name": "Nút mở ảnh",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "ttk.Button mở hộp thoại chọn tệp Windows; bị khóa khi đang nạp hoặc suy luận."
+    },
+    {
+      "name": "Chọn ảnh mẫu",
+      "kind": "input",
+      "refersTo": "sample-select",
+      "description": "ttk.Combobox với sáu tên lớp tiếng Việt, readonly khi rảnh và disabled khi bận; width=15 tính theo ký tự."
+    },
+    {
+      "name": "Hai tab tác vụ",
+      "kind": "nav",
+      "refersTo": "notebook-tab",
+      "description": "ttk.Notebook gồm Phân loại ảnh và Thông tin & kết quả; tab selected nền trắng, tab khác nền xanh nhạt."
+    },
+    {
+      "name": "Ảnh đầu vào",
+      "kind": "custom",
+      "refersTo": "image-preview",
+      "description": "tk.Canvas căn giữa ảnh bằng ImageOps.contain; có lời nhắc khi trống và thông báo chọn lại nếu tệp hỏng."
+    },
+    {
+      "name": "Điểm bỏ phiếu",
+      "kind": "custom",
+      "refersTo": "vote-chart",
+      "description": "tk.Canvas vẽ sáu thanh ngang theo thứ tự Chim, Mèo, Hươu, Chó, Ngựa, Khỉ; số ba chữ số thập phân, không có trục hay tooltip."
+    },
+    {
+      "name": "Năm ảnh tham chiếu",
+      "kind": "custom",
+      "refersTo": "caption",
+      "description": "Năm cột ttk.Label hiển thị ảnh train cùng tên lớp, khoảng cách và mã gốc; được xóa khi đổi ảnh hoặc gặp tệp hỏng."
+    },
+    {
+      "name": "Bảng kết quả thí nghiệm",
+      "kind": "custom",
+      "refersTo": "table-row",
+      "description": "ttk.Treeview có ba đầu cột tiếng Việt và tám dòng hiển thị, đọc số liệu từ results/test_comparison.csv."
+    }
+  ],
+  "narrative": {
+    "northStar": "Bàn thực nghiệm tại máy",
+    "overview": "Giao diện dùng nền trắng, chữ xanh đậm và màu xanh nghiên cứu để người xem tập trung vào ảnh động vật cùng bằng chứng phân loại. Bản hiện tại là ứng dụng Windows bằng Tkinter/ttk, khởi động từ mã nguồn qua `run-desktop.bat`. Kiểu điều khiển dùng theme `clam`; không đồng nhất theme này với bộ điều khiển WinUI.\n\nNhãn tác vụ, hướng dẫn, thông báo và mô tả cấu hình dùng tiếng Việt. Ảnh đầu vào và ảnh huấn luyện là nội dung giải thích chính. Tài liệu ghi nhận mã đã triển khai trong `animal_knn/desktop.py`; `PRODUCT.md` và `.impeccable/surface-briefs/desktop.md` xác lập nền tảng và phạm vi. Người mới đọc mã bắt đầu tại `HUONG_DAN_MA_NGUON.md` và `README.md`.",
+    "keyCharacteristics": [
+      "Cửa sổ Windows với điều khiển Tkinter/ttk và theme `clam`.",
+      "Nền trắng, bề mặt xanh nhạt, chữ xanh đậm và một màu xanh cho hành động chính.",
+      "Segoe UI, nhãn tiếng Việt và các cấp chữ rõ ràng.",
+      "Bố cục phẳng, ảnh thật và điểm bỏ phiếu lấy từ mô hình."
+    ],
+    "rules": [
+      {
+        "name": "The Chú thích rõ chữ Rule",
+        "body": "Dùng Xanh chú thích ở nguyên độ đậm cho nội dung hỗ trợ; không giảm thêm độ rõ của chữ trên nền sáng.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tiếng Việt trước Rule",
+        "body": "Giữ dấu tiếng Việt và tên tác vụ dễ hiểu trên giao diện; tên API và khóa cấu hình trong mã tiếp tục theo thư viện đang dùng.",
+        "section": "typography"
+      },
+      {
+        "name": "The Trạng thái theo ttk Rule",
+        "body": "Giữ trạng thái `active`, `disabled`, `readonly` và `selected` của điều khiển ttk; chỉ ghi đè các giá trị đã khai báo trong `_styles`.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do dùng Tkinter/ttk, theme `clam` và Segoe UI theo mã Windows hiện tại.",
+      "Do giữ nhãn tác vụ, thông báo và hướng dẫn dùng tiếng Việt dễ hiểu.",
+      "Do giữ chú thích rõ chữ, ảnh thật, tên lớp, khoảng cách và mã ảnh train.",
+      "Do duy trì trạng thái khóa điều khiển, tiến trình và thông báo lỗi có cách khắc phục.",
+      "Do phân biệt bằng chứng kiểm tra ẩn với việc duyệt trực quan cửa sổ Windows."
+    ],
+    "donts": [
+      "Don't chuyển màn hình này thành ứng dụng web hoặc thay đổi nhận diện đã được giữ lại.",
+      "Don't thêm góc bo, bóng đổ hay chuyển động trang trí không có trong bản triển khai.",
+      "Don't gọi điểm bỏ phiếu là xác suất đã hiệu chuẩn hoặc nhầm năm ảnh minh họa với giá trị k.",
+      "Don't công bố DPI hoặc bố cục ở kích thước tối thiểu đã đạt khi chưa có kiểm tra trực quan."
+    ]
+  }
+}

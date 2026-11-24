@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "animal-knn"
+version = "1.0.0"
+description = "STL-10 animal classification with classical and CNN features, using K-NN"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+animal-knn = "animal_knn.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["animal_knn*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

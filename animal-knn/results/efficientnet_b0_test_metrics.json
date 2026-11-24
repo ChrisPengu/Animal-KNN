@@ -1,0 +1,113 @@
+{
+  "feature": "efficientnet_b0",
+  "accuracy": 0.96625,
+  "macro_f1": 0.9662576086064382,
+  "n_test": 4800,
+  "retrieval_ms_per_image_batched": 3.065969479166597,
+  "accuracy_normal_95ci": [
+    0.9611412212503868,
+    0.9713587787496133
+  ],
+  "selected_on_validation": false,
+  "classification_report": {
+    "bird": {
+      "precision": 0.9923954372623575,
+      "recall": 0.97875,
+      "f1-score": 0.9855254877281309,
+      "support": 800.0
+    },
+    "cat": {
+      "precision": 0.9581749049429658,
+      "recall": 0.945,
+      "f1-score": 0.9515418502202643,
+      "support": 800.0
+    },
+    "deer": {
+      "precision": 0.9623115577889447,
+      "recall": 0.9575,
+      "f1-score": 0.9598997493734336,
+      "support": 800.0
+    },
+    "dog": {
+      "precision": 0.9586983729662077,
+      "recall": 0.9575,
+      "f1-score": 0.9580988117573483,
+      "support": 800.0
+    },
+    "horse": {
+      "precision": 0.9477521263669502,
+      "recall": 0.975,
+      "f1-score": 0.9611829944547134,
+      "support": 800.0
+    },
+    "monkey": {
+      "precision": 0.9788557213930348,
+      "recall": 0.98375,
+      "f1-score": 0.9812967581047382,
+      "support": 800.0
+    },
+    "accuracy": 0.96625,
+    "macro avg": {
+      "precision": 0.9663646867867434,
+      "recall": 0.9662499999999999,
+      "f1-score": 0.9662576086064382,
+      "support": 4800.0
+    },
+    "weighted avg": {
+      "precision": 0.9663646867867435,
+      "recall": 0.96625,
+      "f1-score": 0.9662576086064381,
+      "support": 4800.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      783,
+      6,
+      1,
+      0,
+      5,
+      5
+    ],
+    [
+      2,
+      756,
+      11,
+      20,
+      3,
+      8
+    ],
+    [
+      0,
+      8,
+      766,
+      3,
+      22,
+      1
+    ],
+    [
+      1,
+      13,
+      7,
+      766,
+      11,
+      2
+    ],
+    [
+      2,
+      0,
+      10,
+      7,
+      780,
+      1
+    ],
+    [
+      1,
+      6,
+      1,
+      3,
+      2,
+      787
+    ]
+  ]
+}

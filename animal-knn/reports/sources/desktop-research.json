@@ -1,0 +1,169 @@
+{
+  "tool": "Agent Reach 1.6.1",
+  "acquired_utc": "2026-11-24T02:11:18.138118+00:00",
+  "note": "Metadata only; full third-party text is kept outside the deliverable. See DU_AN_THAM_KHAO.md for our analysis.",
+  "records": [
+    {
+      "evidence_file_private": "native-research-search.json",
+      "ok": true,
+      "backend": "exa",
+      "action": "search",
+      "items": [
+        {
+          "title": "RANA-ATI/Animals-Classification-using-Feature-Extractors",
+          "url": "https://github.com/RANA-ATI/Animals-Classification-using-Feature-Extractors",
+          "content_sha256": "805014ede27c3ce8b843178b9f75afe36bee0f4a20cd6c0df42907e941129dca"
+        },
+        {
+          "title": "memo-13-byte/Bird-Species-Classifier-CNN",
+          "url": "https://github.com/memo-13-byte/Bird-Species-Classifier-CNN",
+          "content_sha256": "6ddc237f83f2497c1d59c7b904b4dcb4da07c95e0bb91e049406dd3ecabb1813"
+        },
+        {
+          "title": "AlvaroVasquezAI/Animal_Image_Classification",
+          "url": "https://github.com/AlvaroVasquezAI/Animal_Image_Classification",
+          "content_sha256": "ab70c2dbc5d43297566ab9a462ce998db583bf7eec6d81bd2c0da43bbe6cb428"
+        },
+        {
+          "title": "stlm10v1/Cat_and_Dog_classifier",
+          "url": "https://github.com/stlm10v1/Cat_and_Dog_classifier",
+          "content_sha256": "82d55ea589fa1bb10531e4cc8fec5b92483832bd0ef7a0db002985ff0945583a"
+        },
+        {
+          "title": "sancharika/Dog-Cat-Classification",
+          "url": "https://github.com/sancharika/Dog-Cat-Classification",
+          "content_sha256": "25c684cc5a5a62989d0a8e5154819745aafde0bb102e424b74acdc373e1eff80"
+        },
+        {
+          "title": "KamgangAnthony/Animal-Recognition-Image-Processing3",
+          "url": "https://github.com/KamgangAnthony/Animal-Recognition-Image-Processing3",
+          "content_sha256": "ce658668164356e7bef2eea25c24b0729369afca734aa14b246ad4be7cec1155"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "native-gui-search.json",
+      "ok": true,
+      "backend": "exa",
+      "action": "search",
+      "items": [
+        {
+          "title": "AlvaroVasquezAI/Animal_Image_Classification",
+          "url": "https://github.com/AlvaroVasquezAI/Animal_Image_Classification",
+          "content_sha256": "0a8878c60ec144c96b1d629d7bb022bd5bb26785cfb6a5ccb13be49d41541446"
+        },
+        {
+          "title": "cyproto/image_classification-animals-with-gui",
+          "url": "https://github.com/cyproto/image_classification-animals-with-gui",
+          "content_sha256": "592bbd78a1a5270bd113933430b0ebcc31266b6d15705b87e40c230217821228"
+        },
+        {
+          "title": "vs047/bird-classifier",
+          "url": "https://github.com/vs047/bird-classifier",
+          "content_sha256": "cfce68b653dbd67bc91efe7e9f58b74c98bb821451c29400fb4b886b79777328"
+        },
+        {
+          "title": "sancharika/Dog-Cat-Classification",
+          "url": "https://github.com/sancharika/Dog-Cat-Classification",
+          "content_sha256": "cad71fdde07441b8e80c3274944cdde1a0376723038fbebd452ffcc0801f53bf"
+        },
+        {
+          "title": "Admiral-Ampulembang/image-classification",
+          "url": "https://github.com/Admiral-Ampulembang/image-classification",
+          "content_sha256": "b0fc747b54d1dc9d7ff04181e56b31926fff120fe058d4ffa4eb6885adc7853b"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "related-feature-repo.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "GitHub - RANA-ATI/Animals-Classification-using-Feature-Extractors",
+          "url": "https://github.com/RANA-ATI/Animals-Classification-using-Feature-Extractors",
+          "content_sha256": "ab4f83f5a535a0c9c6690683b47cf612a8b55cd80a704e68c02aea079a349278"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "related-knn-repo.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "GitHub - elfchildRichter/Animal_Image_Classification_Unsupervised",
+          "url": "https://github.com/elfchildRichter/Animal_Image_Classification_Unsupervised",
+          "content_sha256": "7e2f5e9c223a69576f4c5caa1cd553225ee3ce70e89d82f581b350af5487940c"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "related-animal-repo.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "GitHub - AlvaroVasquezAI/Animal_Image_Classification: An animal classification system developed using transfer learning with the ResNet50 convolutional neural network pre-trained on ImageNet. Designed to distinguish between three classes of animals—cats, dogs, and snakes—the system demonstrates a high accuracy of approximately 98.67% on a balanced dataset comprising 3,000 images.",
+          "url": "https://github.com/AlvaroVasquezAI/Animal_Image_Classification",
+          "content_sha256": "831b80991bb8656828508efc68eb70818c79eb8d5dedd8697333eafebf84d9eb"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "related-tk-repo.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "GitHub - cyproto/image_classification-animals-with-gui: Image classifier using tensorflow.",
+          "url": "https://github.com/cyproto/image_classification-animals-with-gui",
+          "content_sha256": "ffe670659ed319b1650a35864c98e5f971c0b953a3cfc570040947ec83277019"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "related-tk-source.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "URL Source: https://raw.githubusercontent.com/AlvaroVasquezAI/Animal_Image_Classification/main/Program/main.py",
+          "url": "https://raw.githubusercontent.com/AlvaroVasquezAI/Animal_Image_Classification/main/Program/main.py",
+          "content_sha256": "d5e7dc0c4a0264810b5584f9c04559bfe9308c64a6cb2ffb5392be5854e0ac0b"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "related-gui-source.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "URL Source: https://raw.githubusercontent.com/cyproto/image_classification-animals-with-gui/master/ImageClassifier.py",
+          "url": "https://raw.githubusercontent.com/cyproto/image_classification-animals-with-gui/master/ImageClassifier.py",
+          "content_sha256": "39c8d9ec82e428fac2decafedb80ba890cd79e4168765d44ab5ea5b77bc8e3ea"
+        }
+      ]
+    },
+    {
+      "evidence_file_private": "tk-docs.json",
+      "ok": true,
+      "backend": "jina",
+      "action": "read",
+      "items": [
+        {
+          "title": "tkinter — Python interface to Tcl/Tk — Python 3.10.22 documentation",
+          "url": "https://docs.python.org/3.10/library/tkinter.html",
+          "content_sha256": "a00fbf264734db7d2563bd5a3ddd915476fa9d958f966f9675c043e16d3ce49f"
+        }
+      ]
+    }
+  ]
+}

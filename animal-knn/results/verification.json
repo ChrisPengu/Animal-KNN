@@ -1,0 +1,16 @@
+{
+  "official_binary_md5": true,
+  "reference_count_train_only": 2385,
+  "no_exact_hash_overlap": true,
+  "curated_near_duplicate_candidates": 0,
+  "cached_online_features_consistent": true,
+  "cached_online_votes_consistent": true,
+  "cached_online_max_relative_l2": 0.0006380402483046055,
+  "stored_validation_metrics_reproduced": true,
+  "reproduced_validation_accuracy": 0.9747899159663865,
+  "cpu_gpu_prediction_consistency_samples": 3,
+  "serialization_roundtrip": true,
+  "unit_tests": "15 passed in 6.87s",
+  "selected_feature": "efficientnet_b0_finetuned",
+  "demo_expected_label_vi": "Mèo"
+}

@@ -1,0 +1,7 @@
+{
+  "selected_feature_before_test": "efficientnet_b0_finetuned",
+  "selection_sha256": "af1f2f65d69a9d63899ec04943e3978e97c0bb4b94a228c051b0b77de99314f0",
+  "best_model_sha256": "420f538cbf5da94192e23e03c1fe59bf596d0fd721b95df1aafbcdf91bb97af8",
+  "selection_rule": "validation only",
+  "timestamp_utc": "2026-11-18T02:13:55.077972+00:00"
+}

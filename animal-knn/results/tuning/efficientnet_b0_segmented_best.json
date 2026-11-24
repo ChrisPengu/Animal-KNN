@@ -1,0 +1,10 @@
+{
+  "feature": "efficientnet_b0_segmented",
+  "pca": 256,
+  "k": 11,
+  "metric": "manhattan",
+  "weights": "uniform",
+  "val_accuracy": 0.9092436974789916,
+  "val_macro_f1": 0.9089694156213919,
+  "distance_ms_per_image": 0.23901075630205654
+}

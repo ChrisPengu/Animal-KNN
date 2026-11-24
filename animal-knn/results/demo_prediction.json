@@ -1,0 +1,43 @@
+{
+  "label": 1,
+  "class_name": "cat",
+  "class_name_vi": "Mèo",
+  "vote_scores": [
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "elapsed_ms": 27.217500000915607,
+  "segmentation_fallback": false,
+  "feature": "efficientnet_b0_finetuned",
+  "neighbors": [
+    {
+      "id": "stl10_train_00599",
+      "distance": 0.812972366809845,
+      "reference_index": 280
+    },
+    {
+      "id": "stl10_train_02862",
+      "distance": 0.8204058408737183,
+      "reference_index": 1388
+    },
+    {
+      "id": "stl10_train_01137",
+      "distance": 0.8220397233963013,
+      "reference_index": 552
+    },
+    {
+      "id": "stl10_train_01100",
+      "distance": 0.8275349736213684,
+      "reference_index": 534
+    },
+    {
+      "id": "stl10_train_02904",
+      "distance": 0.8296793699264526,
+      "reference_index": 1406
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "selected": {
+    "feature": "efficientnet_b0_finetuned",
+    "pca": 128,
+    "k": 7,
+    "metric": "euclidean",
+    "weights": "distance",
+    "val_accuracy": 0.9747899159663865,
+    "val_macro_f1": 0.9747122703153464,
+    "distance_ms_per_image": 0.032807899159164086
+  },
+  "test": {
+    "feature": "efficientnet_b0_finetuned",
+    "accuracy": 0.97,
+    "macro_f1": 0.9699975624167142,
+    "n_test": 4800,
+    "retrieval_ms_per_image_batched": 0.07104431249994529,
+    "accuracy_normal_95ci": [
+      0.9651740596771199,
+      0.9748259403228801
+    ],
+    "selected_on_validation": true,
+    "classification_report": {
+      "bird": {
+        "precision": 0.9886506935687264,
+        "recall": 0.98,
+        "f1-score": 0.9843063402385436,
+        "support": 800.0
+      },
+      "cat": {
+        "precision": 0.9666238767650834,
+        "recall": 0.94125,
+        "f1-score": 0.9537682077264091,
+        "support": 800.0
+      },
+      "deer": {
+        "precision": 0.9699624530663329,
+        "recall": 0.96875,
+        "f1-score": 0.9693558474046279,
+        "support": 800.0
+      },
+      "dog": {
+        "precision": 0.945321992709599,
+        "recall": 0.9725,
+        "f1-score": 0.9587184226740604,
+        "support": 800.0
+      },
+      "horse": {
+        "precision": 0.9738480697384807,
+        "recall": 0.9775,
+        "f1-score": 0.975670617592015,
+        "support": 800.0
+      },
+      "monkey": {
+        "precision": 0.9763387297633873,
+        "recall": 0.98,
+        "f1-score": 0.9781659388646288,
+        "support": 800.0
+      },
+      "accuracy": 0.97,
+      "macro avg": {
+        "precision": 0.9701243026019349,
+        "recall": 0.9700000000000001,
+        "f1-score": 0.9699975624167142,
+        "support": 4800.0
+      },
+      "weighted avg": {
+        "precision": 0.9701243026019348,
+        "recall": 0.97,
+        "f1-score": 0.9699975624167142,
+        "support": 4800.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        784,
+        5,
+        2,
+        2,
+        2,
+        5
+      ],
+      [
+        2,
+        753,
+        11,
+        26,
+        3,
+        5
+      ],
+      [
+        3,
+        8,
+        775,
+        3,
+        8,
+        3
+      ],
+      [
+        1,
+        8,
+        5,
+        778,
+        6,
+        2
+      ],
+      [
+        1,
+        1,
+        3,
+        9,
+        782,
+        4
+      ],
+      [
+        2,
+        4,
+        3,
+        5,
+        2,
+        784
+      ]
+    ]
+  },
+  "external": {
+    "accuracy": 0.95,
+    "macro_f1": 0.949621528568897,
+    "count": 60,
+    "classification_report": {
+      "bird": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "cat": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 10.0
+      },
+      "deer": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1-score": 0.9523809523809523,
+        "support": 10.0
+      },
+      "dog": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 10.0
+      },
+      "horse": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1-score": 0.9473684210526315,
+        "support": 10.0
+      },
+      "monkey": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "accuracy": 0.95,
+      "macro avg": {
+        "precision": 0.9570707070707071,
+        "recall": 0.9500000000000001,
+        "f1-score": 0.949621528568897,
+        "support": 60.0
+      },
+      "weighted avg": {
+        "precision": 0.9570707070707071,
+        "recall": 0.95,
+        "f1-score": 0.9496215285688969,
+        "support": 60.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "median_ms": 63.91284999972413,
+    "p95_ms": 78.74924499983535,
+    "protocol": "Fixed Wikimedia set, visually reviewed before model evaluation; no tuning on this set"
+  },
+  "comparison": [
+    {
+      "feature": "efficientnet_b0",
+      "accuracy": 0.96625,
+      "macro_f1": 0.9662576086064382,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 3.065969479166597,
+      "accuracy_normal_95ci": "[0.9611412212503868, 0.9713587787496133]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.9663865546218487
+    },
+    {
+      "feature": "efficientnet_b0_finetuned",
+      "accuracy": 0.97,
+      "macro_f1": 0.9699975624167142,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.0710443124999452,
+      "accuracy_normal_95ci": "[0.9651740596771199, 0.9748259403228801]",
+      "selected_on_validation": true,
+      "val_accuracy": 0.9747899159663864
+    },
+    {
+      "feature": "efficientnet_b0_segmented",
+      "accuracy": 0.9127083333333332,
+      "macro_f1": 0.9128671813524208,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.6168220208333727,
+      "accuracy_normal_95ci": "[0.9047230955438259, 0.9206935711228408]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.9092436974789916
+    },
+    {
+      "feature": "hsv_hog",
+      "accuracy": 0.5070833333333333,
+      "macro_f1": 0.4932507111013532,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.9183845624998336,
+      "accuracy_normal_95ci": "[0.49293967122905824, 0.5212269954376084]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.5142857142857142
+    },
+    {
+      "feature": "hsv_hog_hu_segmented",
+      "accuracy": 0.3820833333333333,
+      "macro_f1": 0.371468692050345,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.3737892500000346,
+      "accuracy_normal_95ci": "[0.3683372347475157, 0.395829431919151]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.3915966386554622
+    },
+    {
+      "feature": "hsv_hog_segmented",
+      "accuracy": 0.381875,
+      "macro_f1": 0.3711599639482631,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.3799796875000538,
+      "accuracy_normal_95ci": "[0.3681303330465428, 0.39561966695345724]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.3915966386554622
+    },
+    {
+      "feature": "resnet18",
+      "accuracy": 0.9191666666666668,
+      "macro_f1": 0.9192195952255808,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.5951766666665511,
+      "accuracy_normal_95ci": "[0.9114553625694579, 0.9268779707638755]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.9361344537815126
+    },
+    {
+      "feature": "resnet18_segmented",
+      "accuracy": 0.860625,
+      "macro_f1": 0.8607704110718002,
+      "n_test": 4800,
+      "retrieval_ms_per_image_batched": 0.0974991041666347,
+      "accuracy_normal_95ci": "[0.8508270578332424, 0.8704229421667575]",
+      "selected_on_validation": false,
+      "val_accuracy": 0.8521008403361344
+    }
+  ],
+  "counts": [
+    {
+      "Tập dữ liệu": "train",
+      "Chim": 399,
+      "Mèo": 398,
+      "Hươu": 396,
+      "Chó": 398,
+      "Ngựa": 400,
+      "Khỉ": 394
+    },
+    {
+      "Tập dữ liệu": "val",
+      "Chim": 100,
+      "Mèo": 100,
+      "Hươu": 99,
+      "Chó": 98,
+      "Ngựa": 98,
+      "Khỉ": 100
+    },
+    {
+      "Tập dữ liệu": "test",
+      "Chim": 800,
+      "Mèo": 800,
+      "Hươu": 800,
+      "Chó": 800,
+      "Ngựa": 800,
+      "Khỉ": 800
+    },
+    {
+      "Tập dữ liệu": "excluded_near_duplicate",
+      "Chim": 1,
+      "Mèo": 2,
+      "Hươu": 5,
+      "Chó": 4,
+      "Ngựa": 2,
+      "Khỉ": 6
+    }
+  ],
+  "sensitivity": {
+    "categories": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "11",
+      "15"
+    ],
+    "series": {
+      "cosine": [
+        0.9630252100840336,
+        0.9680672268907564,
+        0.969747899159664,
+        0.9747899159663864,
+        0.9663865546218487,
+        0.9680672268907564
+      ],
+      "euclidean": [
+        0.9630252100840336,
+        0.9680672268907564,
+        0.969747899159664,
+        0.9747899159663864,
+        0.9663865546218487,
+        0.9663865546218487
+      ],
+      "manhattan": [
+        0.9630252100840336,
+        0.9647058823529412,
+        0.9663865546218487,
+        0.9647058823529412,
+        0.9680672268907564,
+        0.9680672268907564
+      ]
+    }
+  },
+  "classes_vi": [
+    "Chim",
+    "Mèo",
+    "Hươu",
+    "Chó",
+    "Ngựa",
+    "Khỉ"
+  ],
+  "sources": [
+    {
+      "title": "STL-10, Stanford",
+      "url": "https://cs.stanford.edu/~acoates/stl10/"
+    },
+    {
+      "title": "Torchvision STL-10 source",
+      "url": "https://github.com/pytorch/vision/blob/v0.24.1/torchvision/datasets/stl10.py"
+    },
+    {
+      "title": "PyTorch transfer learning",
+      "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html"
+    },
+    {
+      "title": "KNeighborsClassifier",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html"
+    },
+    {
+      "title": "OpenCV GrabCut",
+      "url": "https://docs.opencv.org/4.x/d8/d83/tutorial_py_grabcut.html"
+    },
+    {
+      "title": "Agent Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "title": "Tkinter, Python 3.10",
+      "url": "https://docs.python.org/3.10/library/tkinter.html"
+    },
+    {
+      "title": "HOG/SIFT/ORB và K-NN cho động vật",
+      "url": "https://github.com/RANA-ATI/Animals-Classification-using-Feature-Extractors"
+    },
+    {
+      "title": "Đặc trưng HSV/VGG16 và K-NN",
+      "url": "https://github.com/elfchildRichter/Animal_Image_Classification_Unsupervised"
+    },
+    {
+      "title": "GUI Tkinter phân loại động vật",
+      "url": "https://github.com/AlvaroVasquezAI/Animal_Image_Classification"
+    },
+    {
+      "title": "Animal classifier GUI",
+      "url": "https://github.com/cyproto/image_classification-animals-with-gui"
+    }
+  ],
+  "photo_sources": {
+    "data/external/bird/bird_00.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_(male)_version_2,_Geneve,_Switzerland.jpg",
+      "author": "Terragio67",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/bird/bird_01.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:House_Sparrow_%E2%80%93_wr%C3%B3bel_zwyczajny_%E2%80%93_Passer_domesticus.jpg",
+      "author": "Krigore",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/bird/bird_02.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_(female),_Geneve,_Switzerland.jpg",
+      "author": "Terragio67",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/bird/bird_03.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_04.jpg",
+      "author": "Arnold Paul",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "data/external/bird/bird_04.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:European_robin_(Erithacus_rubecula)_juvenile.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/bird/bird_05.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Petirrojo_europeo_(Erithacus_rubecula),_Tierpark_Hellabrunn,_M%C3%BAnich,_Alemania,_2012-06-17,_DD_02.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/bird/bird_06.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Columba_livia_Luc_Viatour.jpg",
+      "author": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "data/external/bird/bird_08.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_(Linnaeus_1758).jpg",
+      "author": "Michael Gäbler",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "data/external/bird/bird_09.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg",
+      "author": "Luc Viatour",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "data/external/cat/cat_00.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg",
+      "author": "Von.grzanka",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/cat/cat_01.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Felis_catus,_Gra%C4%8Dac_(HR)_--_2022_--_0030.jpg",
+      "author": "Anil Öztas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_02.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blue-eyed_domestic_cat_(Felis_silvestris_catus).jpg",
+      "author": "Frank Schulenburg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_03.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Face_of_a_female_domestic_cat.jpg",
+      "author": "Νικόλαος Κυριακάκης",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_04.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tabby_cat_with_blue_eyes-3336579.jpg",
+      "author": "AdinaVoicu",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "data/external/cat/cat_05.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blue_and_white_tabby_cat%E2%80%93IMG_6442_02.jpg",
+      "author": "Kızıl",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_06.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_(4-28-2023).jpg",
+      "author": "George E. Koronaios",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_07.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Female_British_Shorthair_cat.jpg",
+      "author": "George E. Koronaios",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_08.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Siamese_cat,_female.jpg",
+      "author": "Felinlove",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/cat/cat_09.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Siamese_cat,_chocolate_point.jpg",
+      "author": "Felinlove",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/deer/deer_00.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_1.jpg",
+      "author": "Lviatour",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/deer/deer_01.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_5.jpg",
+      "author": "Lviatour",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/deer/deer_02.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fallow_Deer_Dama_Dama_in_Richmond_Park_2023_02.jpg",
+      "author": "Julian Herzog (Website)",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data/external/deer/deer_03.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fallow_Deer_(Dama_dama).jpg",
+      "author": "Michael Gäbler",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "data/external/deer/deer_04.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Metskits_-_Roe_deer_-_Capreolus_capreolus.jpg",
+      "author": "Kristian Pikner",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/deer/deer_05.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Capreolus_capreolus_Wien_Zentralfriedhof_20221021_05.jpg",
+      "author": "Uoaei1",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/deer/deer_06.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cervus_nippon_002.jpg",
+      "author": "Lilly M",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/deer/deer_07.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cervus_nippon_-_Wildpark_Kn%C3%BCll_02.jpg",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/deer/deer_08.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Columbian_black-tailed_deer_(Odocoileus_hemionus_columbianus)_male_Mt_Rainier.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/deer/deer_09.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Odocoileus_hemionus_(Calibas).jpg",
+      "author": "Calibas",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/dog/dog_01.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_062.jpg",
+      "author": "TailsAndTrailsArchive",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data/external/dog/dog_02.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_labrador_retriever.jpg",
+      "author": "Dktue",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "data/external/dog/dog_03.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Labrador_Retriever_-_Yellow.JPG",
+      "author": "Skansken",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "data/external/dog/dog_05.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:2008-08-28_White_German_Shepherd_ready.jpg",
+      "author": "Ildar Sagdejev (Specious)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/dog/dog_06.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Golden_Retriever_--_2022_--_5945.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/bird/bird_10.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Indian_sparrow_(Passer_domesticus_indicus)_immature_Udaipur.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/dog/dog_07.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_126.jpg",
+      "author": "TailsAndTrailsArchive",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data/external/dog/dog_08.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domestic_dog_in_Ericeira,_Portugal_151.jpg",
+      "author": "TailsAndTrailsArchive",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data/external/dog/dog_09.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Labrador_Retriever_snow.jpg",
+      "author": "Original author Hand, edit by Pharaoh Hound",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "data/external/dog/dog_10.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Benasque_-_Anciles_-_Labrador_Retriever.jpg",
+      "author": "Basotxerri",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/dog/dog_11.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Stray_German_Shepherd_Dog.jpg",
+      "author": "Satdeep Gill",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/horse/horse_00.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Equus_ferus_caballus,_H%C3%BCckeswagen_(DE)_--_2022_--_0057.jpg",
+      "author": "Anil Öztas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/horse/horse_01.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Em_-_Equus_caballus_-_49.jpg",
+      "author": "DenesFeri",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/horse/horse_02.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domestic_horse_at_Suryachaur_and_the_mountains_in_the_back1.jpg",
+      "author": "Shadow Ayush",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/horse/horse_03.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:PreRemoval_Fort_McDermitt_Cooperative_Domestic_Horse_Removal_(31181716277).jpg",
+      "author": "Intermountain Forest Service, USDA Region 4 Photography",
+      "license": "Public domain",
+      "license_url": ""
+    },
+    "data/external/horse/horse_04.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Harness_detail_Arabian_horse.jpg",
+      "author": "Montanabw",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/horse/horse_05.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Al_Khaledia_Arabian_Horse_Festival_(6781680875).jpg",
+      "author": "Sammy Six",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "data/external/horse/horse_06.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Super_Cute_Icelandic_Horse_(8095376221).jpg",
+      "author": "Christine  Zenino from Chicago, US",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "data/external/horse/horse_07.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Brown_Icelandic_horse.jpg",
+      "author": "Linsenhejhej",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/horse/horse_08.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Friesian_horse_-_02.jpg",
+      "author": "Oleg Yunakov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/horse/horse_09.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Friesian_horse_piaffe.jpg",
+      "author": "Annalisa Parisi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "data/external/monkey/monkey_00.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhesus_macaque_(Macaca_mulatta)_Red-shanked_douc_langur_(Pygathrix_nemaeus)_hybrid_Son_Tra.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/monkey/monkey_01.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhesus_macaque_(Macaca_mulatta_mulatta),_male,_Gokarna.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/monkey/monkey_02.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Long-tailed_macaque_(Macaca_fascicularis)_Labuk_Bay.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/monkey/monkey_03.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Long-tailed_macaque_(Macaca_fascicularis)_male_head_Angkor.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/monkey/monkey_04.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Colombian_white-faced_capuchin_(Cebus_capucinus).jpg",
+      "author": "Hobbyfotowiki",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "data/external/monkey/monkey_05.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cebus_capucinus_apella,_Gehaubter_Kapuzineraffe_02.jpg",
+      "author": "Wald1siedel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/monkey/monkey_06.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Saimiri_sciureus-1_Luc_Viatour.jpg",
+      "author": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "data/external/monkey/monkey_07.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Common_squirrel_monkey_Saimiri_sciureus_%C3%AElet_la_M%C3%A8re_French_Guiana_2013.jpg",
+      "author": "Cayambe",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "data/external/monkey/monkey_08.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_monkey_(Chlorocebus_sabaeus)_juvenile_head.jpg",
+      "author": "",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data/external/monkey/monkey_09.jpg": {
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grivet_(Chlorocebus_aethiops)_head_2.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  }
+}

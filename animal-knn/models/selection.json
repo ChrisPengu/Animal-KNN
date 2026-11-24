@@ -1,0 +1,18 @@
+{
+  "selected_by": [
+    "validation accuracy",
+    "validation macro-F1",
+    "retrieval time"
+  ],
+  "test_used_for_selection": false,
+  "config": {
+    "feature": "efficientnet_b0_finetuned",
+    "pca": 128,
+    "k": 7,
+    "metric": "euclidean",
+    "weights": "distance",
+    "val_accuracy": 0.9747899159663865,
+    "val_macro_f1": 0.9747122703153464,
+    "distance_ms_per_image": 0.032807899159164086
+  }
+}

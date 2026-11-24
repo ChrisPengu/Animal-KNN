@@ -1,0 +1,22 @@
+holdout_id,holdout_index,train_id,train_index,reference_split,hamming_bits,status,confirmed_duplicate,exclude_id,review_reason,review_date
+stl10_train_01470,888,stl10_train_03845,2309,train,0,candidate_needs_visual_review,True,stl10_train_03845,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_train_01629,981,stl10_train_04699,2813,train,4,candidate_needs_visual_review,True,stl10_train_04699,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_train_02429,1468,stl10_train_01645,989,train,4,candidate_needs_visual_review,True,stl10_train_01645,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_train_02431,1469,stl10_train_03865,2321,train,4,candidate_needs_visual_review,True,stl10_train_03865,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_01601,3988,stl10_train_04235,2543,train,0,candidate_needs_visual_review,True,stl10_train_04235,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_02402,4474,stl10_train_04918,2943,train,2,candidate_needs_visual_review,True,stl10_train_04918,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_02523,4544,stl10_train_00064,43,train,2,candidate_needs_visual_review,True,stl10_train_00064,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_02846,4750,stl10_train_02693,1629,train,4,candidate_needs_visual_review,True,stl10_train_02693,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_02883,4775,stl10_train_01183,706,train,4,candidate_needs_visual_review,True,stl10_train_01183,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_03252,4990,stl10_train_02707,1640,train,2,candidate_needs_visual_review,True,stl10_train_02707,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_03590,5184,stl10_train_03881,2334,train,2,candidate_needs_visual_review,True,stl10_train_03881,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_04563,5751,stl10_train_02399,1449,train,2,candidate_needs_visual_review,True,stl10_train_02399,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_04730,5851,stl10_train_00192,116,train,4,candidate_needs_visual_review,True,stl10_train_00192,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_06927,7161,stl10_train_04317,2594,train,0,candidate_needs_visual_review,True,stl10_train_04317,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_07599,7558,stl10_train_04290,2578,train,0,candidate_needs_visual_review,True,stl10_train_04290,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_07953,7776,stl10_train_04699,2813,train,2,candidate_needs_visual_review,True,stl10_train_04699,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_00065,3042,stl10_train_01301,782,val,4,candidate_needs_visual_review,True,stl10_train_01301,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_02791,4713,stl10_train_02353,1423,val,2,candidate_needs_visual_review,True,stl10_train_02353,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_05536,6344,stl10_train_01396,843,val,4,candidate_needs_visual_review,True,stl10_train_01396,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_05704,6442,stl10_train_04888,2920,val,4,candidate_needs_visual_review,True,stl10_train_04888,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18
+stl10_test_07953,7776,stl10_train_01629,981,val,4,candidate_needs_visual_review,True,stl10_train_01629,"Same photograph with resize/compression differences, visually confirmed before model tuning",2026-11-18

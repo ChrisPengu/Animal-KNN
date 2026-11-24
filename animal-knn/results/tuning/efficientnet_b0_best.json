@@ -1,0 +1,10 @@
+{
+  "feature": "efficientnet_b0",
+  "pca": 0,
+  "k": 5,
+  "metric": "manhattan",
+  "weights": "uniform",
+  "val_accuracy": 0.9663865546218487,
+  "val_macro_f1": 0.9663398666693469,
+  "distance_ms_per_image": 2.4436835294120804
+}

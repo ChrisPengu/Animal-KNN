@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/raw/
+data/features/
+.agent-reach/
+.cache/
+
+# Dữ liệu và trọng số lớn giữ trên máy, không đưa vào Git thông thường.
+data/processed/*.npy
+data/processed/*.npz
+models/*.joblib
+models/*.npz
+models/backbones/
+
+# Tệp sinh tự động và cấu hình riêng của máy.
+*.log
+*.part
+*.zip
+.env
+.env.*
+!.env.example
+.impeccable/review/
+.streamlit/
+.DS_Store
+Thumbs.db
+desktop-startup.log
+
